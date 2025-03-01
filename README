@@ -18,3 +18,24 @@ This project sets up a simple integration between **Apache Airflow** and **Apach
 
 ```bash
 ./start.sh
+
+
+
+
+##JW: Rmbr to set up admin user for Airflow: 
+docker exec -it airflow-scheduler airflow users create \
+    --username admin \
+    --password admin \
+    --firstname Admin \
+    --lastname User \
+    --role Admin \
+    --email admin@example.com
+
+
+##JW 
+
+Field	Value
+Conn Id	spark_default
+Conn Type	Spark
+Host	spark://spark-master:7077
+Extra	{"deploy-mode": "client"}
