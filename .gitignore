@@ -1,3 +1,4 @@
 .env
 notes.txt
 dags/__pycache__
+logs
