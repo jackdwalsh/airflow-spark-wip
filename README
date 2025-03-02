@@ -1,6 +1,8 @@
 # Airflow + Spark Demo
 
-This project sets up a simple integration between **Apache Airflow** and **Apache Spark** using Docker Compose. It demonstrates how to trigger PySpark jobs from Airflow using the `SparkSubmitOperator`.
+This project sets up a simple integration between **Apache Airflow** and **Apache Spark** using Docker Compose. 
+
+I got a boilerplate template using ChatGPT then have had to add quite a lot of custom config to get this working. 
 
 ## Services
 

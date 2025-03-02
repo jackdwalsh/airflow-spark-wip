@@ -13,6 +13,5 @@ with DAG(
         task_id='spark_submit_task',
         application='/opt/airflow/scripts/spark_script.py',
         conn_id='spark_default',
-        env_vars={"JAVA_HOME": "/usr/lib/jvm/java-11-openjdk-amd64"},
         dag=dag,
 )

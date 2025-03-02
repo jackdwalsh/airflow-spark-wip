@@ -2,7 +2,7 @@
 
 echo "Starting Airflow & Spark Stack..."
 
-docker compose down --volumes
+docker compose down #--volumes
 docker compose up -d
 
 echo "Airflow UI available at: http://localhost:8080"
